@@ -1,0 +1,27 @@
+#corona{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background: url(./img/coronavirus1.png) no-repeat;
+    background-size: 500px;
+}
+
+#corona-vie{
+    width: 500px;
+    border: 2px solid #000;
+    margin: 0 auto 50px auto;
+
+}
+
+#corona-vie>div{
+    height: 20px;
+    background-color: #ff2261;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}

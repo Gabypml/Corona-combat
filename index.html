@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corona kill</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <script type="text/javascript" src="./node_modules/vue/dist/vue.js"></script>
+    <!--<script type="texte/javascript" src="app.js"></script>-->
+</head>
+<body>
+    <div id="vue-app">
+        <!--Corona image-->
+        <div id="corona"></div>
+
+        <!--Corona vie-->
+        <div id="corona-vie">
+            <div v-bind:style="{width: 50 +'%'}"></div>
+        </div>
+
+        <!--Controle du jeu-->
+        <div id="btn">
+            <button v-on:click="frappe" v-show="!finDeVie">Frapper</button>
+            <button @click="recommencer">Recommencer</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
