@@ -10,12 +10,20 @@
 </head>
 <body>
     <div id="vue-app">
+
+        <!--Titre-->
+        <div id="titre">
+            <h1>{{title}}</h1>
+        </div>
+
         <!--Corona image-->
-        <div id="corona"></div>
+        <div id="corona" v-bind:class="{tuer: finDeVie}"></div>
 
         <!--Corona vie-->
-        <div id="corona-vie">
-            <div v-bind:style="{width: vie +'%'}"></div>
+        <div id="coco">
+            <div id="corona-vie">
+                <div v-bind:style="{width: vie +'%'}"></div>
+            </div>
         </div>
 
         <!--Controle du jeu-->

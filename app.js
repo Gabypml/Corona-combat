@@ -3,14 +3,14 @@ new Vue({
     data:{
         vie: 100,
         finDeVie: false,
+        title: "Combattez-le"
     },
     methods:{
         frappe: function() {
             ///il prend -10 dans la vie qui vaut 100
-            console.log("coucou")
             this.vie -=10;
             if(this.vie <= 0){
-                finDeVie = true;
+                this.finDeVie = true;
             }
         },
         recommencer: function() {

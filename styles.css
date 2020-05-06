@@ -1,13 +1,38 @@
+body{
+    background-color: #b6bef3;
+}
 #corona{
+
+    /* neumorphism*/
+    border-radius: 198px;
+    background: #b6bef3;
+    box-shadow:  41px 41px 85px #939ac5, 
+                -41px -41px 85px #d9e2ff;
+
     width: 500px;
     height: 500px;
     margin: 0 auto;
-    padding-bottom: 10px;
-    background: url(./img/coronavirus1.png) no-repeat;
-    background-size: 500px;
+    
+    background: url(./img/coronavirus1.png) no-repeat center;
+    background-size: 430px;
+}
+
+#corona.tuer{
+    background: url(./img/coronavirus2.png) no-repeat center;
+    background-size: 430px;
+
+}
+
+#coco{
+     /*neumorphism*/
+     border-radius: 61px;
+     background: #b6bef3;
+     box-shadow:  16px 16px 31px #939ac5, 
+                 -16px -16px 31px #d9e2ff;
 }
 
 #corona-vie{
+
     width: 500px;
     border: 2px solid #000;
     margin: 0 auto 50px auto;
