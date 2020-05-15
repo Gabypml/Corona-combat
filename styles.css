@@ -1,6 +1,27 @@
 body{
     background-color: #b6bef3;
 }
+#titre{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#titre2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 38px;
+    background: #b6bef3;
+    box-shadow:  6px 6px 16px #898fb6, 
+             -6px -6px 16px #e4eeff;
+}
 #corona{
 
     /* neumorphism*/
@@ -25,10 +46,18 @@ body{
 
 #coco{
      /*neumorphism*/
-     border-radius: 61px;
+     border-radius: 49px;
      background: #b6bef3;
-     box-shadow:  16px 16px 31px #939ac5, 
-                 -16px -16px 31px #d9e2ff;
+     box-shadow:  6px 6px 19px #717697, 
+                  -6px -6px 19px #fbffff;
+
+    
+    margin-top: 2rem;
+    margin-left: 25rem;
+    margin-right: 25rem;
+    padding-top: 10px;
+    height: 35px;
+    
 }
 
 #corona-vie{
@@ -42,11 +71,47 @@ body{
 #corona-vie>div{
     height: 20px;
     background-color: #ff2261;
+    
 }
 
 #btn{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 3rem;
     
+}
+
+#btn1{
+    padding:6px 0 6px 0;
+	border-radius:2px;
+	width:100px;
+    border:2px solid black;
+    background-color: transparent;
+    margin-right: 40px;
+    margin-top:40px;
+
+    /*neumorphism*/
+    border-radius: 38px;
+    background: linear-gradient(145deg, #c3cbff, #a4abdb);
+    box-shadow:  6px 6px 16px #898fb6, 
+                 -6px -6px 16px #e4eeff;
+}
+
+#btn2{
+
+    padding:6px 0 6px 0;
+	border-radius:2px;
+	width:100px;
+    border:2px solid black;
+    background-color: transparent;
+    margin-top:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    /*neumorphism*/
+    border-radius: 38px;
+    background: linear-gradient(145deg, #c3cbff, #a4abdb);
+    box-shadow:  6px 6px 16px #898fb6, 
+                 -6px -6px 16px #e4eeff;
 }
